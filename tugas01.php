@@ -1,3 +1,17 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Bootstrap</title>
+ 
+
 <?php
 $ns1 = ['id'=>1,'nim'=>'01101','uts'=>80,'uas'=>84,'tugas'=>78];
 $ns2 = ['id'=>2,'nim'=>'01121','uts'=>70,'uas'=>50,'tugas'=>68];
@@ -6,8 +20,8 @@ $ns4 = ['id'=>4,'nim'=>'01134','uts'=>90,'uas'=>91,'tugas'=>82];
     
 $ar_nilai = [$ns1, $ns2 , $ns3, $ns4];
 ?>
-<h3>Daftar Nilai Siswa</h3>
-<table border="1" width="100%">
+<h1 class="text-center m1">Daftar Nilai Siswa</h3>
+<table class="table table-striped">
 <thead>
     <tr>
         <th>No</th><th>NIM</th><th>UTS</th>
@@ -31,3 +45,4 @@ $ar_nilai = [$ns1, $ns2 , $ns3, $ns4];
     ?>
 </tbody>
 </table>
+</html>
